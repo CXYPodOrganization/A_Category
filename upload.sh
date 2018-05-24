@@ -17,5 +17,5 @@ git add .
 git commit -am ${NewVersionNumber}
 git tag ${NewVersionNumber}
 git push origin master --tags
-cd ~/.cocoapods/repos/CXYPersonalPod && git pull origin master && cd - && pod repo push CasaPasswordRepositoryStore A_Category.podspec --verbose --allow-warnings --use-libraries
+cd ~/.cocoapods/repos/CXYPersonalPod && git pull origin master && cd - && pod repo push CXYPersonalPod A_Category.podspec --verbose --allow-warnings --use-libraries
 

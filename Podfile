@@ -5,5 +5,7 @@ source 'https://github.com/Stermop/CXYPersonalPod.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'A_Category' do
+
+pod "CTMediator"
  
 end
